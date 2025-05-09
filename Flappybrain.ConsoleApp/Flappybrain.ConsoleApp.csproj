@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlappyBrainLibrary\FlappyBrain.Library.csproj" />
+    <ProjectReference Include="..\FlappyBrain.Library\FlappyBrain.Library.csproj" />
+    <ProjectReference Include="..\FlappyBrain.Matrices\FlappyBrain.Matrices.csproj" />
   </ItemGroup>
 
 </Project>

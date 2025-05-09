@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBrain.Library", "FlappyBrainLibrary\FlappyBrain.Library.csproj", "{02CC5AF4-46DD-326D-0188-7F48A74DA2BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBrain.Library", "FlappyBrain.Library\FlappyBrain.Library.csproj", "{02CC5AF4-46DD-326D-0188-7F48A74DA2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappybrain.ConsoleApp", "Flappybrain.ConsoleApp\Flappybrain.ConsoleApp.csproj", "{5300A5BC-8A13-4805-B7EB-5972DDC1913B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBrain.ConsoleApp", "Flappybrain.ConsoleApp\FlappyBrain.ConsoleApp.csproj", "{5300A5BC-8A13-4805-B7EB-5972DDC1913B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBrain.Matrices", "FlappyBrain.Matrices\FlappyBrain.Matrices.csproj", "{26AED16B-6AFA-4FD4-B7D1-2C338AF1CD16}"
 EndProject
