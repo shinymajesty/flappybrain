@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBrainLibrary", "FlappyBrainLibrary\FlappyBrainLibrary.csproj", "{02CC5AF4-46DD-326D-0188-7F48A74DA2BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappybrain.ConsoleApp", "Flappybrain.ConsoleApp\Flappybrain.ConsoleApp.csproj", "{5300A5BC-8A13-4805-B7EB-5972DDC1913B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{02CC5AF4-46DD-326D-0188-7F48A74DA2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CC5AF4-46DD-326D-0188-7F48A74DA2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CC5AF4-46DD-326D-0188-7F48A74DA2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5300A5BC-8A13-4805-B7EB-5972DDC1913B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5300A5BC-8A13-4805-B7EB-5972DDC1913B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5300A5BC-8A13-4805-B7EB-5972DDC1913B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5300A5BC-8A13-4805-B7EB-5972DDC1913B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0980865-9681-4B4D-9C88-D1028A3A1395}
 	EndGlobalSection
 EndGlobal
