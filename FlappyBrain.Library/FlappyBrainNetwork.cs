@@ -56,8 +56,11 @@ public class FlappyBrainNetwork
         var result = FlappyMatrix.MultiplyMatrix(hiddenNodeValues, this._w2);
         result = FlappyMatrix.PerformOperation(result, SigmoidFunction);
 
+        result = result.GetLength(0) > result.GetLength(1) ? result : FlappyMatrix.TransposeMatrix(result);
+
         var outputs = new double[result.GetLength(0)];
-        for (int row = 0; row< result.GetLength(0); row++) outputs[row] = result[row, 0];
+            for (int row = 0; row < result.GetLength(0); row++) outputs[row] = result[row, 0];
+
         return outputs;
     }
 
