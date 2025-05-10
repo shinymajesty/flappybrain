@@ -1,6 +1,6 @@
 ﻿namespace FlappyBrain.Matrices
 {
-
+    public delegate double OperationDelegate(double number);
     public static class FlappyMatrix
     {
         public static double[,] MultiplyMatrix(double[,] A, double[,] B)
@@ -88,6 +88,13 @@
             }
             return result;
         }
+        public static double[,] PerformOperation(double[,] A, OperationDelegate operation)
+        {
+            for(int row = 0; row < A.GetLength(0); row++)
+                for(int col = 0; col < A.GetLength(1); col++)
+                    A[row, col] = operation(A[row, col]);
+            return A;
+        }
         public static string PrintMatrix(double[,] matrix)
         {
             int rows = matrix.GetLength(0);
@@ -103,5 +110,6 @@
             }
             return result;
         }
+
     }
 }
