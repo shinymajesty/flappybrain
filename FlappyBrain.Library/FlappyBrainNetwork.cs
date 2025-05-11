@@ -15,6 +15,7 @@ public class FlappyBrainNetwork
     private double[,] _w1 { get; set; }
     private double[,] _w2 { get; set; }
     private double[,] Outputs { get; set; }
+    public double[][,] Layers => [_w1, _w2];
 
     #endregion
     public FlappyBrainNetwork(int inputNodes, int hiddenNodes, int outputNodes, ActivationFunction activationFunction)
