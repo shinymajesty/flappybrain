@@ -1,10 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>NeuralFlapper</Title>
+    <Authors>shinymajesty</Authors>
+    <Description>Small little neural network library for genetic algorithm</Description>
+    <Copyright>Creative Commons Zero v1.0 universal</Copyright>
+    <PackageProjectUrl>https://github.com/shinymajesty/flappybrain</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shinymajesty/flappybrain</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>V1.0.1</PackageTags>
+    <PackageIcon>20250516_1500_Brainy Flappy Bird_simple_compose_01jvcjtn4gf5ht7f63r8q06brg.jpg</PackageIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\png2jpg\20250516_1500_Brainy Flappy Bird_simple_compose_01jvcjtn4gf5ht7f63r8q06brg.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FlappyBrain.Matrices\FlappyBrain.Matrices.csproj" />
