@@ -6,9 +6,14 @@ namespace Flappybrain.ConsoleApp
     {
         static void Main(string[] args)
         {
-            var x = new FlappyBrainNetwork(2, 3, 2, FlappyBrain.Library.ActivationFunction.Sigmoid);
+            Random random = new Random();
+            for (int i = 0; i < 100; i++)
+            {
+                var x = new FlappyBrainNetwork(4, 6, 1, FlappyBrain.Library.ActivationFunction.Sigmoid);
 
-            Console.WriteLine(String.Join(' ' , x.CalculateWeights(new double[2] { 0.5, 1.4 })));
+                Console.WriteLine(String.Join(' ', x.CalculateWeights(new double[4] {random.Next(0 , 1000), random.Next(0, 2000) , random.Next(0, 1000), random.Next(0, 30)  })));
+            }
+            
         }
     }
 }

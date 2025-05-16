@@ -9,5 +9,8 @@ namespace FlappyBrain.Library
     public enum ActivationFunction
     {
         Sigmoid,
+        ReLU,
+        LeakyReLU,
+        Tanh,
     }
 }
